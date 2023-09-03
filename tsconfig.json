@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -22,6 +22,18 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/layout.jsx",
+    "src/components/layouts/Header.jsx",
+    "src/components/layouts/Sidebar.jsx",
+    "src/app/providers.tsx",
+    "src/lib/Toast.jsx",
+    "src/app/contents/articles/page.jsx",
+    "src/contenxt/Global.js"
+  ],
   "exclude": ["node_modules"]
 }
